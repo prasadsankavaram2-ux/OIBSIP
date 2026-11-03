@@ -1,2 +1,17 @@
-# OIBSIP-Iris-Classification
-This repository contains a machine learning project for classifying Iris flowers into three species: Setosa, Versicolor, and Virginica using the Iris dataset. The project includes data preprocessing, exploratory data analysis (EDA), model training with various algorithms (Logistic Regression, Decision Tree, Random Forest, K-Nearest Neighbors, Support Vector Machine), model evaluation, and deployment.
+﻿# Iris Flower Classification
+
+This project uses the classic Iris dataset to train and evaluate a Decision Tree classifier for species prediction.
+
+## Files
+- `Iris.csv` — dataset used for analysis and modeling
+- `iris_model.py` — model training, evaluation, and output generation
+- `output/confusion_matrix.png` — confusion matrix visualization
+- `output/model_metrics.txt` — training metrics summary
+
+## Run
+```bash
+python iris_model.py
+```
+
+## Results
+The model achieves 100% accuracy on the held-out test set.
